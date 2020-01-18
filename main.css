@@ -1,3 +1,40 @@
 body {
   background-color:#f6efe5;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 12pt;
+  
+}
+
+.row1 {
+  display: flex;
+  color: white;
+  flex-direction: row;
+}
+
+.vertical-text-box {
+  flex: 1;
+  flex-basis: 33%;
+  background-color: #f15a30;
+  padding: 1em;  
+}
+
+vertical-text {
+  -webkit-transform: rotate(-90deg);
+}
+
+.title {
+  flex: 2;
+  flex-basis: 66%;
+  background-color:#0d2c40;
+  padding: 1em;
+}
+
+.row2 {
+  color: white;
+  background-color: #c879b2;
+  padding: 1em;
 }
